@@ -1,0 +1,611 @@
+html{
+    scroll-behavior: smooth;
+}
+#top_row{
+    margin-top: 30px;
+    vertical-align: middle;
+}
+#top_row .logo{
+    width: 80px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+#top_row .search-icon{
+    width: 18px;
+    opacity: 80%;
+    margin-left: 95px;
+    vertical-align: middle;
+}
+#top_row .search-input{
+    width: 500px;
+    height: 20px;
+    margin-left: 15px;
+    vertical-align: middle;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top_row .search-input:focus{
+    outline: none;
+}
+#top_row .cart{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 180px;
+}
+#top_row .cart:hover{
+    background-color: rgba(0, 0, 0, 0.074);
+}
+#top_row .cart:active{
+    background-color: rgba(0, 0, 0, 0.213);
+}
+#top_row a{
+    color: black;
+    text-decoration: none;
+}
+#top_row .cart .cart-logo{
+    margin-top: 0px;
+    margin-left: 15px;
+    vertical-align: middle;
+    width: 17px;
+    opacity: 80%;
+    display: inline-block;
+}
+#top_row .cart .cart-text{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    opacity: 90%;
+    cursor: pointer;
+}
+#top_row .profile-photo{
+    width: 40px;
+    vertical-align: middle;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#top_row .profile-photo:hover{
+    opacity: 70%;
+    vertical-align: middle;
+    display: inline-block;
+}
+#top_row .user-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 90%;
+    cursor: pointer;
+}
+#top_row .user-name:hover{
+    opacity: 70%;
+}
+#top-2{
+    margin-top: 20px;
+    vertical-align: middle;
+}
+#top-2 .explore-text{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    
+    
+}
+
+#top-2 .newin{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 115px;
+}
+#top-2 .women{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.365);
+    border-radius: 10px;
+    margin-left: 435px;
+    cursor: pointer;
+}
+#top-2 .women:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+#top-2 .women .text{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    
+}
+#top-2 .men{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.365);
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#top-2 .men:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+#top-2 .men .text{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+}
+#top-2 .sort{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.365);
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#top-2 .sort:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+#top-2 .sort .sort-icon{
+    width:17px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 20px;
+}
+#top-2 .sort .text{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+#top-2 .filter{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.365);
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#top-2 .filter:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+#top-2 .filter .filter-icon{
+    width:17px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 20px;
+}
+#top-2 .filter .text{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+#e-options{
+    vertical-align: middle;
+    margin-left: 30px;  
+    margin-top: 20px;
+    display: inline-block;
+}
+#e-options p{
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+#e-options .first{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    cursor: pointer;
+}
+#e-options .first:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+#e-options .first .new-in{
+    font-size: 15px;
+    margin-left: 16px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+#e-options .second{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#e-options .second:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+#e-options .second .clothing{
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 11px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+#e-options .third{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#e-options .third:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+#e-options .third .shoes{
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 17px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+#e-options .forth{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 35px;
+}
+#e-options .forth:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+#e-options .forth .accessories{
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 17px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+#e-options .fifth{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 35px;
+}
+#e-options .fifth:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+#e-options .fifth .activewears{
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 17px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+#e-options .sixth{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 8px;
+}
+#e-options .sixth:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+#e-options .sixth .living{
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 17px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+#e-options .seventh{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-right: 35px;
+}
+#e-options .seventh:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+#e-options .seventh .inspiration{
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 17px;
+    vertical-align: middle;
+    margin-top: 0px;
+    
+}
+
+#last{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 3px;
+}
+#last #follow-box{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+#last #follow-box .follow{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+#last #follow-box .f1{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+#last #follow-box .f2{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+#last #follow-box .f3{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+#last #follow-box .f4{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+#last .line1{
+    width: 2px;
+    background-color: white;
+    height: 40px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+
+#last .catag{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+#last .catag .category{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+#last .catag .f1{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#last .catag .f2{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+#last .catag .f3{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+#last .catag .f4{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+#last .catag .f5{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+
+#last .partner{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+#last .partner .part{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+#last .partner .f1{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+#last .partner .f2{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+#last .partner .f3{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+#last .con{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+#last .con .contact{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+#last .con .f1{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+#last .con .f2{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+#last .con .f3{
+    color: white;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+#last .copywrite{
+    margin-left: 50px;
+    margin-top: 60px;
+    display: inline-block;
+}
+#last .copywrite .copy{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+#last .copywrite .copy2{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-top: 4px;
+}

@@ -1,0 +1,267 @@
+#cloth-row-3{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+#cloth-row-3 .a1{
+    vertical-align: top;
+    width: 210px;
+    height: 210px;
+    padding-bottom: 55px;
+    background-color: rgba(255, 255, 255, 0.127);
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    padding-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    .heart{
+        display: none;
+    }
+}
+#cloth-row-3 .a1:hover{
+    .heart{
+        display:block;
+    }
+}
+
+#cloth-row-3 .a1 .name{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#cloth-row-3 .a1 .dis{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#cloth-row-3 .a1 .img{
+    margin-left: 5px;
+    width: 200px;
+    height: 200px;
+    background-image: url("C:/Users/Yash/Desktop/Website/FashionBrand-/Images/cloths/l.webp");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    border-radius: 10px;
+}
+#cloth-row-3 .a1 .heart{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    float: left;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+#cloth-row-3 .a1 .heart .heart-e{
+    width: 18px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: relative;
+}
+
+
+
+#cloth-row-3 .a2{
+    vertical-align: top;
+    width: 210px;
+    height: 210px;
+    padding-bottom: 55px;
+    background-color: rgba(255, 255, 255, 0.127);
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    padding-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    .heart{
+        display: none;
+    }
+    
+}
+#cloth-row-3 .a2:hover{
+    .heart{
+        display:block;
+    }
+}
+
+#cloth-row-3 .a2 .name{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#cloth-row-3 .a2 .dis{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#cloth-row-3 .a2 .img{
+    margin-left: 5px;
+    width: 200px;
+    height: 200px;
+    background-image: url("C:/Users/Yash/Desktop/Website/FashionBrand-/Images/cloths/l.webp");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    border-radius: 10px;
+}
+#cloth-row-3 .a2 .heart{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    float: left;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+#cloth-row-3 .a2 .heart .heart-e{
+    width: 18px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: relative;
+
+}
+
+
+#cloth-row-3 .a3{
+    vertical-align: top;
+    width: 210px;
+    height: 210px;
+    padding-bottom: 55px;
+    background-color: rgba(255, 255, 255, 0.127);
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    padding-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    .heart{
+        display: none;
+    }
+    
+}
+#cloth-row-3 .a3:hover{
+    .heart{
+        display:block;
+    }
+}
+
+#cloth-row-3 .a3 .name{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#cloth-row-3 .a3 .dis{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#cloth-row-3 .a3 .img{
+    margin-left: 5px;
+    width: 200px;
+    height: 200px;
+    background-image: url("C:/Users/Yash/Desktop/Website/FashionBrand-/Images/cloths/l.webp");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    border-radius: 10px;
+}
+#cloth-row-3 .a3 .heart{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    float: left;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+#cloth-row-3 .a3 .heart .heart-e{
+    width: 18px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: relative;
+
+}
+
+
+
+#cloth-row-3 .a4{
+    vertical-align: top;
+    width: 210px;
+    height: 210px;
+    padding-bottom: 55px;
+    background-color: rgba(255, 255, 255, 0.127);
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    padding-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    .heart{
+        display: none;
+    }
+    
+}
+#cloth-row-3 .a4:hover{
+    .heart{
+        display:block;
+    }
+}
+
+#cloth-row-3 .a4 .name{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#cloth-row-3 .a4 .dis{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#cloth-row-3 .a4 .img{
+    margin-left: 5px;
+    width: 200px;
+    height: 200px;
+    background-image: url("C:/Users/Yash/Desktop/Website/FashionBrand-/Images/cloths/l.webp");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    border-radius: 10px;
+}
+#cloth-row-3 .a4 .heart{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    float: left;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+#cloth-row-3 .a4 .heart .heart-e{
+    width: 18px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: relative;
+
+}
