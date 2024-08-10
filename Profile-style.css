@@ -1,0 +1,172 @@
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 525px;
+    margin-top: 80px;
+}
+#main{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.479);
+    margin-left: 430px;
+    margin-top: 40px;
+    padding-top: 7px;
+}
+
+#main .profile-img{
+    width: 160px;
+    height: 150px;
+    background-image: url("C:/Users/Yash/Desktop/Website/FashionBrand-/Images/profile.jpg");
+    border-radius: 100px;
+    background-size: 200px;
+    background-position: -15px 0px;
+    margin-left: 120px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.315);
+    cursor: pointer;
+}
+#main .add-profile{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    box-shadow: 0px 0px 3px black;
+    opacity: 70%;
+    margin-top: 25px;
+    margin-left: 140px;
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#main .add-profile:hover{
+    opacity: 90%;
+}
+#main .username-text{
+    display: inline-block;
+    opacity: 70%;
+    margin-left: 30px;
+    margin-top: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .username-input{
+    margin-left: 5px;
+    display: inline-block;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.058);
+    padding-left: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    padding-right: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .username-input:focus{
+    outline: none;
+}
+
+
+#main .password-text{
+    display: inline-block;
+    opacity: 70%;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .password-input{
+    margin-left: 10px;
+    display: inline-block;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.058);
+    padding-left: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    padding-right: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .password-input:focus{
+    outline: none;
+}
+
+
+#main .email-text{
+    display: inline-block;
+    opacity: 70%;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .email-input{
+    margin-left: 10px;
+    display: inline-block;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.058);
+    padding-left: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    padding-right: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .email-input:focus{
+    outline: none;
+}
+
+
+#main .db-text{
+    display: inline-block;
+    opacity: 70%;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .db-input{
+    margin-left: 20px;
+    display: inline-block;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.058);
+    padding-left: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    padding-right: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main .db-input:focus{
+    outline: none;
+}
+
+#main .change-acc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.058);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 10px;
+    margin-left: 75px;
+    margin-top: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#main .delete-acc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(209, 21, 21, 0.249);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#main .delete-acc:hover{
+    background-color: rgba(209, 21, 21, 0.377);
+}
+#main .change-acc:hover{
+    background-color: rgba(0, 0, 0, 0.145);
+}
